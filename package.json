@@ -7,7 +7,9 @@
     "husky": "^9.1.6"
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "rust-book": "cd courses && npm run rust-book",
+    "rust-by-example": "cd courses && npm run rust-by-example"
   },
   "config": {
     "commitizen": {
