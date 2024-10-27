@@ -1,0 +1,28 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {},
+        "ghcr.io/devcontainers/features/rust:1": {},
+        "ghcr.io/devcontainers/features/node:1": {},
+        "ghcr.io/devcontainers/features/python:1": {
+            "installJupyterlab": true
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "remoteEnv": {
+        "PATH": "${containerEnv:PATH}:${containerWorkspaceFolder}/node_modules/.bin"
+    },
+    "onCreateCommand": {
+        "script": "bash -x .devcontainer/on-create-command.sh"
+    },
+    "postCreateCommand": {
+        "script": "bash -x .devcontainer/post-create-command.sh"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}

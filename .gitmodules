@@ -1,0 +1,6 @@
+[submodule "courses/rust-book"]
+	path = courses/rust-book
+	url = https://github.com/cognitive-engineering-lab/rust-book.git
+[submodule "courses/rust-by-example"]
+	path = courses/rust-by-example
+	url = https://github.com/rust-lang/rust-by-example.git
