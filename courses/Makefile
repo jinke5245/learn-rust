@@ -46,3 +46,6 @@ rust-book/book: rust-book/js-extensions/node_modules
 
 rust-by-example/book:
 	@cd rust-by-example && mdbook build
+
+too-many-lists/book:
+	@cd too-many-lists && mdbook build

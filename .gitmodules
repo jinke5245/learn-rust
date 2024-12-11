@@ -4,3 +4,6 @@
 [submodule "courses/rust-by-example"]
 	path = courses/rust-by-example
 	url = https://github.com/rust-lang/rust-by-example.git
+[submodule "courses/too-many-lists"]
+	path = courses/too-many-lists
+	url = https://github.com/rust-unofficial/too-many-lists.git

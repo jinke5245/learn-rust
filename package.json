@@ -9,7 +9,8 @@
   "scripts": {
     "prepare": "husky",
     "rust-book": "cd courses && npm run rust-book",
-    "rust-by-example": "cd courses && npm run rust-by-example"
+    "rust-by-example": "cd courses && npm run rust-by-example",
+    "too-many-lists": "cd courses && npm run too-many-lists"
   },
   "config": {
     "commitizen": {

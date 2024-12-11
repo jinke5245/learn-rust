@@ -1,6 +1,7 @@
 {
     "scripts": {
         "rust-book": "make rust-book/book && cd rust-book && mdbook serve -n 0.0.0.0",
-        "rust-by-example": "cd rust-by-example && mdbook serve -n 0.0.0.0"
+        "rust-by-example": "cd rust-by-example && mdbook serve -n 0.0.0.0",
+        "too-many-lists": "cd too-many-lists && mdbook serve -n 0.0.0.0"
     }
 }
